@@ -1,8 +1,8 @@
 const { override } = require("customize-cra");
 
 function addRendererTarget(config) {
-  config.target = "electron-renderer";
+  // config.target = "electron-renderer";
   return config;
 }
 
-module.exports = override(addRendererTarget("electron-renderer"));
+module.exports = override(addRendererTarget);

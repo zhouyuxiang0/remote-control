@@ -22,7 +22,9 @@
   "homepage": "https://github.com/zhouyuxiang0/remote-control#readme",
   "devDependencies": {
     "@types/electron": "^1.6.10",
-    "electron": "^13.1.1"
+    "concurrently": "^6.2.0",
+    "electron": "^13.1.1",
+    "wait-on": "^5.3.0"
   },
   "dependencies": {
     "electron-is-dev": "^2.0.0"
